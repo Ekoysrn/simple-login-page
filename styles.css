@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    background: linear-gradient(135deg, #4158D0, #C850C0, #FFCC70);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display:block;
+    width: 30%;
+    background-color: #f3f1f1;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contentNo{
+    display: none;
+}
+
+.content h1 {
+    font-size: 2.5em !important;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #4158D0, #C850C0, #FFCC70);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.content label {
+    font-size: 1.2em ;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #4158D0, #C850C0, #FFCC70);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+input {
+    padding:10px;
+    display: block;
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+::placeholder{
+    margin-left: 10px;
+}
+
+.btn {
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    border: none;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left : 10px;
+}
+
+.message{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    display:block;
+    border-radius:10px;
+    background-color:#fff;
+}
+
+.message p{
+    padding:10px;
+    font-size: 1.2em ;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #4158D0, #C850C0, #FFCC70);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.header{
+    border-radius:10px 10px 0 0;
+    padding:5px;
+    background-image:  linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    align-items: baseline;
+}
+
+span{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+    display:block;
+    width: 300px;
+    background-color: #f3f1f1;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+}
